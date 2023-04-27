@@ -1,7 +1,7 @@
  # Data-Cleaning-Pipeline-ETL
  [Click here to see the dataset.](https://www.kaggle.com/datasets/stefanoleone992/filmtv-movies-dataset)
  ## Problem Statement
- The problem was to extract data from two csv files with the records of 40 plus thousands rows from the azure datalake gen2 storage then combine those two files with the the sql join to create a single table then perform some cleaning like removing nulls and remove unnecessary columns and then transfer it to azure sql database.
+ The problem was to extract data from two csv files with the records of 40k plus rows from the azure datalake gen2 storage then combine those two files with the the SQL join to create a single table then perform some cleaning like removing null values, unnecessary columns and then transfer it to azure SQL database.
  ## The Json files
  The First Portfolio Project.json file contains information about the ADF pipeline, including the pipeline name, description, and the resources that make up the pipeline. The manifest.json file contains information about the dependencies and structure of the ARM template of the pipeline in Azure DataFactory.
 ## Workflow 
